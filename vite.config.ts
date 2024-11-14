@@ -11,7 +11,7 @@ import react from '@vitejs/plugin-react';
 
 // Vite config
 export default defineConfig({
-  base:"MERN_ChatBot",
+  base:"MERN_ChatBot_Frontend",
   plugins: [react()],
   optimizeDeps: {
     include: ['react', 'react-dom'], // Ensure react and react-dom are included for optimization
